@@ -9,9 +9,9 @@ class Fixnum
         result.push("pong")
       elsif number.%(3).eql?(0)
         result.push("ping")
-
-
-  end
+      else
+        result.push(number)
+end
 end
 result
 end
