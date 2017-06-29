@@ -7,6 +7,9 @@ class Fixnum
         result.push("pingpong")
       elsif number.%(5).eql?(0)
         result.push("pong")
+      elsif number.%(3).eql?(0)
+        result.push("ping")
+
 
   end
 end
